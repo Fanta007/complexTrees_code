@@ -1,0 +1,35 @@
+# Standardization file for cc10lam08cel01pa.CNG.swc created with StdSwc version 1.31 on 1/31/12.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  471.36  196.18  8.25
+4.5  Radius of terminal line 37 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  527.29  191.47  17.26
+4.5  Radius of terminal line 323 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  244.9  209.29  2.44
+4.5  Radius of terminal line 340 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  232.68  187.43  -2.49
+4.5  Radius of terminal line 349 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  242.02  126.81  6.93
+4.5  Radius of terminal line 417 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  447.22  62.92  -0.09
+4.5  Radius of terminal line 459 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  357.21  48.3  9.46
+4.5  Radius of terminal line 468 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  337.12  54.09  12.2
+4.5  Radius of terminal line 515 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  304.01  -46.57  -2.27
+4.5  Radius of terminal line 559 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  262.45  -29.62  10.48
+4.5  Radius of terminal line 618 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  196.75  -75.93  12.06
+4.5  Radius of terminal line 665 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  70.56  79.59  20.63
+4.5  Radius of terminal line 689 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  1.45  0.86  0.0
+2.4  Length of segment ending at point 381 >= 6.0 stdevs above mean at 10.8667.  (no action taken)
+     B1      X, Y, Z:  339.51  108.79  7.06
+ 
+ 

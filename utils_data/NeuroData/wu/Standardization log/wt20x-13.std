@@ -1,0 +1,42 @@
+# Standardization file for wt20x-13.swc created with StdSwc version 1.31 on 7/9/13.
+# Edited SWC file saved as wt20x-13.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+4.3  Radius of line 203 at 5.6679 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -3.88  16.51  -2.0
+4.3  Radius of line 4 at 5.6679 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  3.31  -16.71  0.0
+2.5  Seg length ending at pt. 43 <= 0.1 at 0.0632.  (removed)
+     A       X, Y, Z:  39.51  -183.97  -3.0
+2.4  Seg length ending at pt. 47 >= 6.0 stdevs above mean at 152.4622.  (no action taken)
+     B1      X, Y, Z:  51.93  -193.14  -10.0
+4.4  Line 22 of rad 3.0 links to 21 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  44.91  -212.8  -5.0
+4.4  Line 47 of rad 2.5 links to 42 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  51.93  -193.14  -10.0
+4.4  Line 93 of rad 1.0 links to 92 of rad 0.16816.  (no action taken)
+     B1      X, Y, Z:  24.97  26.62  -2.0
+4.4  Line 125 of rad 1.7678 links to 92 of rad 0.16816.  (no action taken)
+     B1      X, Y, Z:  18.69  30.32  1.0
+4.4  Line 182 of rad 3.0 links to 181 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  -162.71  -9.05  -1.0
+4.4  Line 193 of rad 2.0 links to 192 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  -184.65  74.15  -12.0
+4.4  Line 199 of rad 2.5 links to 198 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  -112.22  25.8  21.0
+4.4  Line 212 of rad 3.0104 links to 211 of rad 0.27951.  (no action taken)
+     B1      X, Y, Z:  -21.7  36.15  -8.0
+4.4  Line 241 of rad 2.5 links to 211 of rad 0.27951.  (no action taken)
+     B1      X, Y, Z:  -17.88  45.14  6.0
+2.1  Line 1 has 6 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 
+
+
+Number of type A irregularities = 1
+Number of type B1 irregularities = 13
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

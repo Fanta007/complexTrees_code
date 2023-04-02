@@ -1,0 +1,15 @@
+# Standardization file for wt20x-04.CNG.swc created with StdSwc version 1.31 on 7/9/13.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+4.4  Line 35 of rad 2.3049 links to 34 of rad 1.118.  (no action taken)
+     B1      X, Y, Z:  37.52  -48.08  -16.0
+4.4  Line 74 of rad 4.0 links to 73 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  -6.45  107.81  -12.0
+4.4  Line 113 of rad 3.0 links to 112 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  -0.85  513.95  -45.0
+2.1  Line 1 has 7 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 

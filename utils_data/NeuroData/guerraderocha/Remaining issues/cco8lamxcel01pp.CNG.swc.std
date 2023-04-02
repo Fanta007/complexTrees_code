@@ -1,0 +1,15 @@
+# Standardization file for cco8lamxcel01pp.CNG.swc created with StdSwc version 1.31 on 1/31/12.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  -0.62  -0.21  0.0
+4.5  Radius of terminal line 119 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -19.82  -255.02  -2.29
+4.5  Radius of terminal line 128 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -0.99  -253.3  -2.45
+4.5  Radius of terminal line 145 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  64.13  -132.65  -17.39
+ 
+ 

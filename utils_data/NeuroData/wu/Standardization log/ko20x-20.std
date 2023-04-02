@@ -1,0 +1,44 @@
+# Standardization file for ko20x-20.swc created with StdSwc version 1.31 on 7/9/13.
+# Edited SWC file saved as ko20x-20.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+4.3  Radius of line 182 at 6.27 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  13.62  -11.87  2.0
+4.3  Radius of line 4 at 6.27 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -4.92  18.48  0.0
+2.4  Seg length ending at pt. 233 >= 6.0 stdevs above mean at 36.9897.  (no action taken)
+     B1      X, Y, Z:  5.18  -41.82  22.0
+4.4  Line 10 of rad 2.0 links to 9 of rad 0.080041.  (no action taken)
+     B1      X, Y, Z:  -10.67  81.3  1.0
+4.4  Line 12 of rad 2.0 links to 11 of rad 0.1463.  (no action taken)
+     B1      X, Y, Z:  -12.4  88.04  1.0
+4.4  Line 126 of rad 1.5 links to 11 of rad 0.1463.  (no action taken)
+     B1      X, Y, Z:  -2.3225  87.903  1.0
+4.4  Line 147 of rad 3.0 links to 146 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  -116.78  17.4  -11.0
+4.4  Line 148 of rad 1.5 links to 9 of rad 0.080041.  (no action taken)
+     B1      X, Y, Z:  -23.95  66.32  2.0
+4.4  Line 154 of rad 3.0 links to 153 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  -70.15  107.08  18.0
+4.4  Line 184 of rad 1.8028 links to 183 of rad 0.30336.  (no action taken)
+     B1      X, Y, Z:  27.19  -13.26  7.0
+4.4  Line 209 of rad 4.0 links to 183 of rad 0.30336.  (no action taken)
+     B1      X, Y, Z:  20.43  -27.9  1.0
+4.4  Line 236 of rad 3.0 links to 235 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  -2.76  -72.04  26.0
+4.4  Line 308 of rad 3.0 links to 304 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  -11.48  -68.42  13.0
+4.4  Line 315 of rad 5.0 links to 314 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  -27.73  -135.24  11.0
+2.1  Line 1 has 6 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 
+
+
+Number of type A irregularities = 0
+Number of type B1 irregularities = 15
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

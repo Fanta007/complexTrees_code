@@ -1,0 +1,15 @@
+# Standardization file for ko20x-09.CNG.swc created with StdSwc version 1.31 on 7/9/13.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+4.3  Radius of line 4 at 10.503 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  5.1  14.98  -3.0
+4.4  Line 21 of rad 3.0 links to 20 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  33.06  196.11  17.0
+4.4  Line 77 of rad 4.0 links to 76 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  -98.0  -0.59  -24.0
+2.1  Line 1 has 7 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 

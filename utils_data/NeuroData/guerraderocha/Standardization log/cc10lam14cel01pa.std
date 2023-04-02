@@ -1,0 +1,48 @@
+# Standardization file for cc10lam14cel01pa.swc created with StdSwc version 1.31 on 1/31/12.
+# Edited SWC file saved as cc10lam14cel01pa.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  794.13  -493.2  -3.16
+4.5  Radius of terminal line 106 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  551.28  -167.43  -8.39
+4.5  Radius of terminal line 251 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  847.03  -51.33  14.71
+4.5  Radius of terminal line 264 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  787.28  -75.16  16.14
+4.5  Radius of terminal line 358 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  1027.17  -83.04  -3.33
+4.5  Radius of terminal line 379 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  690.92  -141.82  1.26
+4.5  Radius of terminal line 397 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  575.29  -80.3  7.25
+4.5  Radius of terminal line 453 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  777.89  -189.93  13.91
+4.5  Radius of terminal line 475 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  523.98  -57.58  -0.49
+4.5  Radius of terminal line 521 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  254.56  42.17  0.61
+4.5  Radius of terminal line 642 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  384.12  -213.95  2.0
+4.5  Radius of terminal line 669 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  290.3  -239.22  -0.89
+4.5  Radius of terminal line 710 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  224.52  -237.3  -1.19
+4.5  Radius of terminal line 731 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  251.6  -152.38  -3.86
+4.5  Radius of terminal line 745 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  204.29  -60.93  1.29
+4.5  Radius of terminal line 802 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -2.06  -1.07  0.0
+2.5  Seg length ending at pt. 2 <= 0.1 at 0.01.  (removed)
+     A       X, Y, Z:  794.14  -493.2  -3.16
+ 
+ 
+
+
+Number of type A irregularities = 1
+Number of type B1 irregularities = 16
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

@@ -1,0 +1,22 @@
+# Standardization file for cco6lam06cel05pa.swc created with StdSwc version 1.31 on 1/31/12.
+# Edited SWC file saved as cco6lam06cel05pa.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  233.49  31.27  0.0
+4.5  Radius of terminal line 197 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -163.98  105.81  0.0
+4.5  Radius of terminal line 217 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -4.97  0.43  0.0
+2.5  Seg length ending at pt. 2 <= 0.1 at 0.0141.  (removed)
+     A       X, Y, Z:  233.5  31.28  0.0
+ 
+ 
+
+
+Number of type A irregularities = 1
+Number of type B1 irregularities = 3
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

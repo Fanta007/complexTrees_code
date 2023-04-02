@@ -1,0 +1,16 @@
+# Standardization file for ko20x-18.swc created with StdSwc version 1.31 on 7/9/13.
+# Edited SWC file saved as ko20x-18.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.1  Line 1 has 5 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 
+
+
+Number of type A irregularities = 0
+Number of type B1 irregularities = 1
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

@@ -1,0 +1,34 @@
+# Standardization file for cc07lam03cel01.swc created with StdSwc version 1.31 on 1/31/12.
+# Edited SWC file saved as cc07lam03cel01.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  -191.42  114.0  1.34
+4.5  Radius of terminal line 48 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -186.04  121.73  6.65
+4.5  Radius of terminal line 51 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -162.96  100.49  8.0
+4.5  Radius of terminal line 121 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -81.09  143.06  6.95
+4.5  Radius of terminal line 185 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -77.48  243.15  -5.85
+4.5  Radius of terminal line 343 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  288.39  -52.96  19.55
+4.5  Radius of terminal line 471 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  88.07  196.51  -3.7
+4.5  Radius of terminal line 510 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  81.54  191.34  5.35
+4.5  Radius of terminal line 530 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  0.02  1.67  -2.1
+2.5  Seg length ending at pt. 2 <= 0.1 at 0.0141.  (removed)
+     A       X, Y, Z:  -191.42  114.01  1.35
+ 
+ 
+
+
+Number of type A irregularities = 1
+Number of type B1 irregularities = 9
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

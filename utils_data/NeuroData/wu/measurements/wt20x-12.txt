@@ -1,0 +1,21 @@
+Soma Surface : 	2791.66 μm2
+Number of Stems : 	5
+Number of Bifurcations : 	19
+Number of Branches : 	43
+Overall Width : 	178.41 μm
+Overall Height : 	488.92 μm
+Overall Depth : 	41 μm
+Average Diameter : 	3.37 μm
+Total Length : 	2038.08 μm
+Total Surface : 	22377.6 μm2
+Total Volume : 	21542.8 μm3
+Max Euclidean Distance : 	435.03 μm
+Max Path Distance : 	462.19 μm
+Max Branch Order : 	6
+Average Contraction : 	0.97
+Total Fragmentation : 	161
+Partition Asymmetry : 	0.58
+Average Rall's Ratio : 	34.02
+Average Bifurcation Angle Local : 	61.31°
+Average Bifurcation Angle Remote : 	63.22°
+Fractal Dimension : 	1.01

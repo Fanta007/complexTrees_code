@@ -1,0 +1,11 @@
+# Standardization file for pv06lam06cel02pa.CNG.swc created with StdSwc version 1.31 on 1/31/12.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  -513.25  -59.13  10.43
+2.4  Length of segment ending at point 403 >= 6.0 stdevs above mean at 10.0612.  (no action taken)
+     B1      X, Y, Z:  -42.05  -12.64  0.0
+ 
+ 

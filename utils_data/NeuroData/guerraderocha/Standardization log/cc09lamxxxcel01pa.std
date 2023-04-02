@@ -1,0 +1,42 @@
+# Standardization file for cc09lamxxxcel01pa.swc created with StdSwc version 1.31 on 1/31/12.
+# Edited SWC file saved as cc09lamxxxcel01pa.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  58.52  258.54  17.63
+4.5  Radius of terminal line 57 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  84.89  329.15  16.2
+4.5  Radius of terminal line 88 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  47.04  173.32  10.77
+4.5  Radius of terminal line 249 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  275.2  455.11  13.49
+4.5  Radius of terminal line 330 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  307.29  357.44  11.66
+4.5  Radius of terminal line 359 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  247.6  233.61  14.11
+4.5  Radius of terminal line 394 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  26.74  342.33  15.84
+4.5  Radius of terminal line 427 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  25.34  391.76  16.64
+4.5  Radius of terminal line 462 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  11.84  433.18  16.64
+4.5  Radius of terminal line 482 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  30.95  337.59  17.38
+4.5  Radius of terminal line 592 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -83.01  185.98  -6.27
+4.5  Radius of terminal line 602 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -1.86  3.21  0.0
+2.5  Seg length ending at pt. 2 <= 0.1 at 0.0173.  (removed)
+     A       X, Y, Z:  58.53  258.55  17.64
+2.4  Seg length ending at pt. 104 >= 6.0 stdevs above mean at 11.7663.  (no action taken)
+     B1      X, Y, Z:  46.41  154.0  11.31
+ 
+ 
+
+
+Number of type A irregularities = 1
+Number of type B1 irregularities = 13
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

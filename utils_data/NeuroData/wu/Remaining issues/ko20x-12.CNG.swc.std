@@ -1,0 +1,13 @@
+# Standardization file for ko20x-12.CNG.swc created with StdSwc version 1.31 on 7/9/13.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+4.4  Line 61 of rad 1.5 links to 60 of rad 0.15207.  (no action taken)
+     B1      X, Y, Z:  -10.21  15.55  -2.0
+4.4  Line 64 of rad 2.1506 links to 60 of rad 0.15207.  (no action taken)
+     B1      X, Y, Z:  -10.87  26.92  -11.0
+2.1  Line 1 has 6 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 

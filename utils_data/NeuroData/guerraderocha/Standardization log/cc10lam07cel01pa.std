@@ -1,0 +1,20 @@
+# Standardization file for cc10lam07cel01pa.swc created with StdSwc version 1.31 on 1/31/12.
+# Edited SWC file saved as cc10lam07cel01pa.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  -33.73  278.61  -1.71
+2.5  Seg length ending at pt. 2 <= 0.1 at 0.0141.  (removed)
+     A       X, Y, Z:  -33.72  278.62  -1.71
+2.4  Seg length ending at pt. 122 >= 6.0 stdevs above mean at 9.3575.  (no action taken)
+     B1      X, Y, Z:  73.9  166.32  -8.36
+ 
+ 
+
+
+Number of type A irregularities = 1
+Number of type B1 irregularities = 2
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

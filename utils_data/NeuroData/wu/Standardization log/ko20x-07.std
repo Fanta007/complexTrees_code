@@ -1,0 +1,30 @@
+# Standardization file for ko20x-07.swc created with StdSwc version 1.31 on 7/9/13.
+# Edited SWC file saved as ko20x-07.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+4.4  Line 18 of rad 2.0 links to 17 of rad 0.18199.  (no action taken)
+     B1      X, Y, Z:  -4.94  169.97  -27.0
+4.4  Line 47 of rad 1.0 links to 46 of rad 0.10175.  (no action taken)
+     B1      X, Y, Z:  -25.45  422.28  -41.0
+4.4  Line 52 of rad 1.0 links to 46 of rad 0.10175.  (no action taken)
+     B1      X, Y, Z:  -13.72  417.56  -42.0
+4.4  Line 67 of rad 1.0 links to 17 of rad 0.18199.  (no action taken)
+     B1      X, Y, Z:  7.5  173.82  -30.0
+4.4  Line 68 of rad 2.25 links to 67 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  12.26  182.9  -29.0
+4.4  Line 73 of rad 3.5 links to 72 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  20.73  150.78  -28.0
+4.4  Line 119 of rad 2.5 links to 109 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  5.42  -71.09  -11.0
+2.1  Line 1 has 7 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 
+
+
+Number of type A irregularities = 0
+Number of type B1 irregularities = 8
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

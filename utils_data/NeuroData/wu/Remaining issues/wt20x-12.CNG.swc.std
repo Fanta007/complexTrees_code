@@ -1,0 +1,33 @@
+# Standardization file for wt20x-12.CNG.swc created with StdSwc version 1.31 on 7/9/13.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+4.2  Radius of line 98 at 0.043747 <= 0.05.  (no action taken)
+     B1      X, Y, Z:  38.56  -15.707  -6.0
+4.3  Radius of line 4 at 4.1382 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  2.57  15.04  0.0
+4.4  Line 30 of rad 1.5 links to 29 of rad 0.35843.  (no action taken)
+     B1      X, Y, Z:  12.31  279.61  -13.0
+4.4  Line 46 of rad 2.3717 links to 29 of rad 0.35843.  (no action taken)
+     B1      X, Y, Z:  -0.07  281.61  -11.0
+4.4  Line 81 of rad 1.5 links to 80 of rad 0.30333.  (no action taken)
+     B1      X, Y, Z:  36.57  0.8  6.0
+4.4  Line 84 of rad 2.0 links to 83 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  67.41  -0.77  5.0
+4.4  Line 88 of rad 1.5 links to 80 of rad 0.30333.  (no action taken)
+     B1      X, Y, Z:  31.26  9.34  8.0
+4.4  Line 97 of rad 2.1213 links to 96 of rad 0.29461.  (no action taken)
+     B1      X, Y, Z:  38.45  -15.53  -6.0
+4.4  Line 99 of rad 2.0 links to 98 of rad 0.043747.  (no action taken)
+     B1      X, Y, Z:  44.41  -26.53  -6.0
+4.4  Line 102 of rad 3.5 links to 101 of rad 1.5.  (no action taken)
+     B1      X, Y, Z:  80.47  -47.82  -14.0
+4.4  Line 113 of rad 1.6667 links to 98 of rad 0.043747.  (no action taken)
+     B1      X, Y, Z:  33.619  -26.857  2.0
+4.4  Line 116 of rad 1.6415 links to 96 of rad 0.29461.  (no action taken)
+     B1      X, Y, Z:  21.84  -24.42  4.0
+2.1  Line 1 has 7 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 

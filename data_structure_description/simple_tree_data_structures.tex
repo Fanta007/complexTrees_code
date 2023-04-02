@@ -1,0 +1,84 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\DeclareUnicodeCharacter{00D7}{\texttimes}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{graphicx}
+\usepackage{caption}
+
+\topmargin 0.0in
+\oddsidemargin 0.0in
+\textwidth 6.5in
+\textheight 9.0in
+\headheight 0.0in
+\headsep 0.0in
+
+\setlength\parindent{0pt}
+
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\slfrac}[2]{\left.#1\middle/#2\right.}
+
+\newcommand{\real}{\mathbb{R}}
+
+\title{Simple Tree Data Structure}
+\author{Adam Duncan}
+
+\begin{document}
+
+\maketitle
+
+
+
+\begin{verbatim}
+  >> ST{1}
+
+ans =
+
+  struct with fields:
+
+        t: [1×105 double]
+    beta0: [3×105 double]
+       T0: 105
+        K: 28
+     beta: {1×28 cell}
+        T: [60 29 31 27 19 23 30 27 19 15 27 18 21 18 24 23 26 17 20 19 15 17 15 12 8 8 6 7]
+       tk: [1×28 double]
+        d: 3
+
+\end{verbatim}
+
+Fields in ST structure:
+\begin{itemize}
+  \item {\bf \texttt{t}}:
+  Vector of length \texttt{T0} giving the current parameterization of the main branch. Typically this is initialized with something like \texttt{linspace(0,1,T0)}.
+
+  \item {\bf \texttt{beta0}}:
+  A \texttt{d\texttimes T0} matrix giving the main branch curve. The $i^\text{th}$ column,  \texttt{beta0(:,i)}, gives the coordinates in $\real^d$ of $\beta_0(t)$ at $t$ given by \texttt{t(i)}.
+
+  \item {\bf \texttt{T0}}:
+  The number of points in the discretization of the main branch.
+
+  \item {\bf \texttt{K}}:
+  The number of side branches.
+
+  \item {\bf \texttt{beta}}:
+  A \texttt{1\texttimes K} cell array of matrices representing the \texttt{K} side branch curves. The $k^\text{th}$ matrix, \texttt{beta\{k\}}, is a \texttt{d\texttimes T(k)} matrix giving the points in the discretization of $\beta_k$.
+
+  \item {\bf \texttt{T}}:
+  A vector of \texttt{K} integers where \texttt{T(k)} gives the number of points in the discretization of $\beta_k$
+
+  \item {\bf \texttt{tk}}:
+  A vector of length \texttt{K}, giving the starting points of the side branches in terms of their parameter values along the main branch. That is, if \texttt{tk(k)} is $t_k$, then $\beta_0(t_k)=\beta_k(0)$.
+
+  \item {\bf \texttt{d}}:
+  The number of spatial dimensions in which the tree lies, typically equal to 3.
+\end{itemize}
+
+\end{document}

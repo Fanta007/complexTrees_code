@@ -1,0 +1,20 @@
+# Standardization file for cc17laxcel03pp.swc created with StdSwc version 1.31 on 1/31/12.
+# Edited SWC file saved as cc17laxcel03pp.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  -37.24  77.81  20.3
+4.5  Radius of terminal line 108 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -184.47  83.57  27.53
+4.5  Radius of terminal line 128 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -2.9  -0.86  0.0
+ 
+ 
+
+
+Number of type A irregularities = 0
+Number of type B1 irregularities = 3
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

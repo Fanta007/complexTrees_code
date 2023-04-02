@@ -1,0 +1,19 @@
+# Standardization file for cc11lam04cel02pp.CNG.swc created with StdSwc version 1.31 on 1/31/12.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  115.92  -390.36  0.28
+4.5  Radius of terminal line 55 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  71.73  -332.76  5.61
+4.5  Radius of terminal line 189 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -12.31  -185.11  4.97
+4.5  Radius of terminal line 201 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -40.0  -140.94  18.5
+4.5  Radius of terminal line 224 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  1.04  -1.07  0.0
+2.4  Length of segment ending at point 100 >= 6.0 stdevs above mean at 15.1769.  (no action taken)
+     B1      X, Y, Z:  30.08  -114.65  17.5
+ 
+ 

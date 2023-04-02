@@ -1,0 +1,20 @@
+# Standardization file for cc17lamxxcel03pp.swc created with StdSwc version 1.31 on 1/31/12.
+# Edited SWC file saved as cc17lamxxcel03pp.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  -8.68  -261.33  -41.63
+2.4  Seg length ending at pt. 64 >= 6.0 stdevs above mean at 16.5238.  (no action taken)
+     B1      X, Y, Z:  1.19  -89.48  -18.84
+2.4  Seg length ending at pt. 70 >= 6.0 stdevs above mean at 13.0752.  (no action taken)
+     B1      X, Y, Z:  11.68  -106.63  -32.75
+ 
+ 
+
+
+Number of type A irregularities = 0
+Number of type B1 irregularities = 3
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

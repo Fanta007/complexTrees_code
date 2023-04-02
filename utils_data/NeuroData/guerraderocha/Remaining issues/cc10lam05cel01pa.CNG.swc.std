@@ -1,0 +1,11 @@
+# Standardization file for cc10lam05cel01pa.CNG.swc created with StdSwc version 1.31 on 1/31/12.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  88.89  51.62  17.94
+4.3  Radius of line 255 at 0.15051 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -74.3  272.69  3.95
+ 
+ 

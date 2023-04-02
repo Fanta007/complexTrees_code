@@ -1,0 +1,44 @@
+# Standardization file for cc10lam08cel01pa.swc created with StdSwc version 1.31 on 1/31/12.
+# Edited SWC file saved as cc10lam08cel01pa.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  471.36  196.18  8.25
+4.5  Radius of terminal line 38 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  527.29  191.47  17.26
+4.5  Radius of terminal line 324 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  244.9  209.29  2.44
+4.5  Radius of terminal line 341 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  232.68  187.43  -2.49
+4.5  Radius of terminal line 350 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  242.02  126.81  6.93
+4.5  Radius of terminal line 418 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  447.22  62.92  -0.09
+4.5  Radius of terminal line 460 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  357.21  48.3  9.46
+4.5  Radius of terminal line 469 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  337.12  54.09  12.2
+4.5  Radius of terminal line 516 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  304.01  -46.57  -2.27
+4.5  Radius of terminal line 560 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  262.45  -29.62  10.48
+4.5  Radius of terminal line 619 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  196.75  -75.93  12.06
+4.5  Radius of terminal line 666 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  70.56  79.59  20.63
+4.5  Radius of terminal line 690 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  1.45  0.86  0.0
+2.5  Seg length ending at pt. 2 <= 0.1 at 0.0173.  (removed)
+     A       X, Y, Z:  471.37  196.19  8.26
+2.4  Seg length ending at pt. 382 >= 6.0 stdevs above mean at 10.8667.  (no action taken)
+     B1      X, Y, Z:  339.51  108.79  7.06
+ 
+ 
+
+
+Number of type A irregularities = 1
+Number of type B1 irregularities = 14
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

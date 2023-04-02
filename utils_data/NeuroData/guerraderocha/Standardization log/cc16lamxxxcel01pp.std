@@ -1,0 +1,24 @@
+# Standardization file for cc16lamxxxcel01pp.swc created with StdSwc version 1.31 on 1/31/12.
+# Edited SWC file saved as cc16lamxxxcel01pp.swc.CNG.swc.  See StdSwc1.31.doc for more information.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  -803.91  -1276.35  7.94
+4.5  Radius of terminal line 88 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -812.13  -1130.0  15.99
+4.5  Radius of terminal line 578 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -275.02  -370.77  21.26
+4.5  Radius of terminal line 669 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -1.86  1.29  0.0
+2.5  Seg length ending at pt. 2 <= 0.1 at 0.0141.  (removed)
+     A       X, Y, Z:  -803.91  -1276.34  7.95
+ 
+ 
+
+
+Number of type A irregularities = 1
+Number of type B1 irregularities = 4
+Number of type B2 irregularities = 0
+Number of type C irregularities = 0

@@ -1,0 +1,27 @@
+# Standardization file for cc07lam03cel02.CNG.swc created with StdSwc version 1.31 on 1/31/12.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  -424.76  -169.92  -7.75
+4.5  Radius of terminal line 297 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -729.94  -370.17  -28.6
+4.5  Radius of terminal line 308 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -611.26  -330.49  -31.15
+4.5  Radius of terminal line 336 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -440.91  -119.17  -8.69
+4.5  Radius of terminal line 412 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -242.86  -370.28  -19.5
+4.5  Radius of terminal line 478 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -325.13  -330.62  -3.85
+4.5  Radius of terminal line 523 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -298.18  -284.35  -11.8
+4.5  Radius of terminal line 544 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -1.66  -1.54  0.0
+2.4  Length of segment ending at point 20 >= 6.0 stdevs above mean at 15.3724.  (no action taken)
+     B1      X, Y, Z:  -324.39  -155.35  -6.7
+2.4  Length of segment ending at point 399 >= 6.0 stdevs above mean at 14.6334.  (no action taken)
+     B1      X, Y, Z:  -263.22  -330.25  -12.1
+ 
+ 

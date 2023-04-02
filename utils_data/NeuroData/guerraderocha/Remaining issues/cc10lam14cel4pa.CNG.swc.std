@@ -1,0 +1,23 @@
+# Standardization file for cc10lam14cel4pa.CNG.swc created with StdSwc version 1.31 on 1/31/12.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+2.2  Line 1 is of type 2.  (no action taken)
+     B1      X, Y, Z:  -642.48  -769.17  -18.7
+4.5  Radius of terminal line 166 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -183.38  -421.86  -6.83
+4.5  Radius of terminal line 204 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -131.79  -360.49  -6.09
+4.5  Radius of terminal line 284 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -185.68  -221.42  -14.28
+4.5  Radius of terminal line 346 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -210.88  -358.82  -14.93
+4.5  Radius of terminal line 350 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -126.62  -245.63  -2.43
+4.5  Radius of terminal line 392 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -122.43  -172.72  -3.32
+4.5  Radius of terminal line 434 at 0.105 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  0.0  -2.57  0.0
+ 
+ 

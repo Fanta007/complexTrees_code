@@ -1,0 +1,29 @@
+# Standardization file for wt20x-17.CNG.swc created with StdSwc version 1.31 on 7/9/13.
+#
+# code   irregularity_description. (action taken)
+#     irregularity_type     coordinates
+#
+4.3  Radius of line 70 at 5.2559 >= 5.0 stdevs above the mean.  (no action taken)
+     B1      X, Y, Z:  -1.34  18.08  3.0
+4.4  Line 15 of rad 1.2748 links to 14 of rad 0.10001.  (no action taken)
+     B1      X, Y, Z:  -46.76  -40.12  -3.0
+4.4  Line 17 of rad 2.1506 links to 14 of rad 0.10001.  (no action taken)
+     B1      X, Y, Z:  -41.65  -43.3  -2.0
+4.4  Line 27 of rad 1.5207 links to 26 of rad 0.24294.  (no action taken)
+     B1      X, Y, Z:  -21.23  -34.63  -8.0
+4.4  Line 31 of rad 2.25 links to 26 of rad 0.24294.  (no action taken)
+     B1      X, Y, Z:  -11.4  -36.28  -13.0
+4.4  Line 37 of rad 2.136 links to 36 of rad 0.10078.  (no action taken)
+     B1      X, Y, Z:  7.63  -31.96  -7.0
+4.4  Line 44 of rad 2.2361 links to 43 of rad 0.35842.  (no action taken)
+     B1      X, Y, Z:  8.57  -67.52  -11.0
+4.4  Line 49 of rad 1.5811 links to 43 of rad 0.35842.  (no action taken)
+     B1      X, Y, Z:  1.04  -59.19  -8.0
+4.4  Line 53 of rad 3.3541 links to 36 of rad 0.10078.  (no action taken)
+     B1      X, Y, Z:  12.72  -25.29  -4.0
+4.4  Line 105 of rad 2.0 links to 104 of rad 1.0.  (no action taken)
+     B1      X, Y, Z:  11.42  418.81  -5.0
+2.1  Line 1 has 6 daughters.  Type is 1.  (no action taken)
+     B1      X, Y, Z:  0.0  0.0  0.0
+ 
+ 
