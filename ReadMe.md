@@ -1,4 +1,7 @@
 ## On Statistical Analysis of Complex Tree-shaped 3D Objects
+This is an example code for the paper "Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects" by Guan Wang, Hamid Laga, and Anuj Srivastava.
+
+
 
 ### Geodesic Computation
 
