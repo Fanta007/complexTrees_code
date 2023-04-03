@@ -10,7 +10,7 @@ addpath('utils_data');
 addpath('utils_data/utils_data_botanTrees');
 addpath('utils_statModels')
 
-data_path = 'botanTrees_txtskl_SGP18';              % botanTrees_txtskl_SGP18
+data_path = 'botanTrees_txtskl_collections';          
 [all_qCompTrees, all_compTrees] = load_botanTrees_rad(data_path);
 
 % Hard coded

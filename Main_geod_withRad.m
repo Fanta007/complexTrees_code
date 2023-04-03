@@ -25,7 +25,7 @@ run showAll_compBotanTrees_4layers.m
 
 % ##### Geodesic Computation #####
 addpath('utils_statModels')
-idx1 =16; idx2 = 20;
+idx1 =15; idx2 = 12;
 
 Q1 = all_qCompTrees{idx1};
 Q2 = all_qCompTrees{idx2};
@@ -44,9 +44,7 @@ fprintf('Q1 to Q2 (with perm), lam_m:%.2f, lam_s:%.2f, lam_p:%.2f\n', ...
 tm1 = tic;
 [G,Q1p, Q2p] = ReparamPerm_qCompTrees_rad_4layers_v2(Q1, Q2, lam_m, lam_s, lam_p);
 
-T1 = toc(tm1); fprintf('Pad and Align trees - done, timecost:%.4f secs\n', T1);
-% --- Align two trees and compute correspondence ---
-% [Q1p, G, ~, Q2p] = AlignFull_qComplexTree_4layers(Q1, Q2, lam_m,lam_s,lam_p, Nitr); 
+T1 = toc(tm1); fprintf('Pad and Align trees - done, timecost:%.4f secs\n', T1); 
 
 
 % ===== Compute the geodesic，map back to Euclidean space =====
@@ -56,9 +54,9 @@ tm2 = tic;
 
 T2 = toc(tm2); fprintf('Geodesic computation - done, timecost:%.4f secs\n', T2);
 
-% ===== Visualization =====
-addpath('utils_draw')
-run showGeodesic_compBotanTrees_4layers.m
+% % ===== Visualization =====
+% addpath('utils_draw')
+% run showGeodesic_compBotanTrees_4layers.m
 
 % % ===== Save Objs =====
 addpath('GetOBJ')

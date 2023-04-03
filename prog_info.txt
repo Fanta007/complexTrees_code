@@ -1,3 +1,0 @@
-qX loaded-Done..., timecost: 0.133853 s
-covMat computation-Done..., timecost: 28.767517 s
-SVD computation-Done..., timecost: 551.824841 s

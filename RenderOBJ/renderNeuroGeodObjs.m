@@ -1,9 +1,6 @@
 clc; 
 % clear; 
 close all;
-addpath('func_render/');
-addpath('func_other/');
-% mesh_dir = 'data/';
 mesh_dir = [obj_folder, '/'];
 
 % load the shape
@@ -14,10 +11,10 @@ for i = 1:N
 end
 
 %% Draw geodesic
- renderOptions = {'RotationOps',{[-90,0,0],[0,0,0]},...  % Botanical trees: [-90,0,0],[0,0,0]
+ renderOptions = {'RotationOps',{[-90,0,0],[0,0,0]},... 
                   'CameraPos',[-0.1,10],...             % default: [-10, 10]
                   'FaceAlpha',0.9,...
-                  'BackgroundColor',[0.9, 0.9, 0.9]}; % you can change the background color here
+                  'BackgroundColor',[0.9, 0.9, 0.9]};
               
 fig = figure('visible','on');
 axis equal; hold on;
@@ -26,9 +23,7 @@ default_c = get(gca,'colororder');
 for i=1:N
 
     M = S{i};
-%     color_botanTree = [0.2, 0.1, 0];
     color_neuroTree = [0.0, 0.0, 0.5];
-%     color_neuroTree = default_c(1, :);
     
     M_col = repmat(color_neuroTree, M.nv, 1);    
 
@@ -53,32 +48,20 @@ for i=1:N
     fprintf('%d-th tree rendering done, time: %f\n', i, T_render);
 end
 
-set(fig,'Position', [100 100 1000 800]);
-set(gca,'position',[0.0,0.0,0.99,0.99] )
+set(fig,'Position', [200 200 800 600]);
+set(gca,'position',[0.0,0.0,0.99,0.99])
 set(fig,'Color', [1, 1, 1],'InvertHardcopy','off'); 
-% print(gcf, '-depsc', '-r1500', './GeoNeuro_chen_No32and41')
-% % Save as .pdf
-% set(fig,'Units','Inches');
-% pos = get(fig,'Position');
-% set(fig,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
-% print(fig, './Geod_compBotanTrees', '-dpdf', '-r1000')
+
 
 
 
 % Title: Geod info
-S1 = sprintf('Geodesic, NeuroTree %d with %d, --- ', idx1, idx2);
-Lambda_str = ['\lambda_{m}=', num2str(lam_m), ', \lambda_{s}=', num2str(lam_s), ', \lambda_{p}=', num2str(lam_p), ' --- E-total=', num2str(G.E)];
-EandTime_str = ['Time :', 'T_{PadAndAlign}=', num2str(T1), 's',', T_{Geod}=', num2str(T2),'s'];
+S1 = sprintf('Geodesic, NeuroTree %d with %d, ', idx1, idx2);
+Lambda_and_E = ['\lambda_{m}=', num2str(lam_m), ', \lambda_{s}=', num2str(lam_s), ', \lambda_{p}=', num2str(lam_p), ', E-total=', num2str(G.E)];
 
-title({[S1, Lambda_str] , EandTime_str});
+title({S1, Lambda_and_E});
 
-% return;
-% Axis position
-% set(gca,'position',[0, -0.05, 1.1, 1])
 axis off
-% Save as .png
-% set(gca,'looseInset',[0 0 0 0])
 print(fig,'Geod_compNeuroTrees','-dpng','-r1000')
-% saveas(fig,'results/eg_singleShape_singleCol.png')
 
 
