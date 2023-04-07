@@ -18,7 +18,7 @@ addpath Yanirk_code
 
 c = distinguishable_colors(70);
 
-folder_name = ['ThreeModesOBJs_', data_path, '-', num2str(used_idxes)];
+folder_name = ['outputedOBJs/ThreeModesOBJs_', data_path, '-', num2str(used_idxes)];
 mkdir(folder_name);
 
 for m_idx =1: numel(CT_cell)

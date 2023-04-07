@@ -7,7 +7,7 @@ close all
 % Botanical Trees
 addpath('utils_data');
 addpath('utils_data/utils_data_botanTrees');
-data_path = 'botanTrees_txtskl_SGP18';              % botanTrees_txtskl_SGP18
+data_path = 'botanTrees/botanTrees_txtskl_collections';            
 [all_qCompTrees, all_compTrees] = load_botanTrees_rad(data_path);
 
 % Hard coded
@@ -21,15 +21,11 @@ used_idxes = G_4_idxes;
                                                            all_compTrees(used_idxes) );
 
 tNum = length(used_qCompTrees);
-% 
-addpath('utils_draw')
-run showAll_compBotanTrees_ownMade4layers.m
-% return
 
 
 % --- Save Input Trees --------
 addpath('GetOBJ')
-obj_folder_inputTree = saveRandSamplesObjs_compTrees_rad_4layers(used_compTrees, 'InputBotanTrees_SGP_G1');
+obj_folder_inputTree = saveRandSamplesObjs_compTrees_rad_4layers(used_compTrees, 'InputBotanTrees_Collections_G1');
 
 
 % used_qCompTrees = all_qCompTrees(used_idxes);
@@ -69,9 +65,7 @@ for i = 2: tNum
     
     used_qCompTrees_Align{i} = Q2p;
     T1 = toc(tm1); fprintf('Loop %d: Pad and Align trees - done, timecost:%.4f secs\n', (i-1), T1);
-    % --- Align two trees and compute correspondence ---
-    % [Q1p, G, ~, Q2p] = AlignFull_qComplexTree_4layers(Q1, Q2, lam_m,lam_s,lam_p, Nitr); 
-
+ 
     % --- Compute the geodesic ---
     tm2 = tic;
     stp1 = i+1;
@@ -87,19 +81,6 @@ T3 = toc(tm_all); fprintf('Mean Loops - done, timecost:%.4f secs\n', T3);
 % --- Visualization, A10{2} is final mean ----------
 addpath('utils_draw')
 run showInputAndMean_compBotanTrees_4layers.m
-
-
-% % --- Save Objs --------
-% addpath('GetOBJ')
-% Data = used_compTrees;
-% used_idxes = [-1];
-% obj_folder = saveInputAndMeanObjs_compTrees_rad_4layers(Data, 'chen', used_idxes);
-% 
-% % ===== Render Objs =====
-% addpath('RenderOBJ')
-% addpath('RenderOBJ/func_render/');
-% addpath('RenderOBJ/func_other/');
-% run renderNeuroInputAndMeanObjs.m
 
 % save('allVars_Main_modes_withRad.mat')
 %% ----- Modes Compuatation -----
@@ -183,7 +164,7 @@ run showModes_compBotanTrees_4layers.m
 % --- Save Objs --------
 addpath('GetOBJ')
 CT_cell = {PC1(1:end), PC2, PC3};
-obj_folder = saveThreeModesObjs_compTrees_rad_4layers(CT_cell, 'BotanTreeSGP-Group-', 4);
+obj_folder = saveThreeModesObjs_compTrees_rad_4layers(CT_cell, 'BotanTreeCollections-Group-', 4);
 
 % ===== Render Objs =====
 addpath('RenderOBJ')
@@ -191,8 +172,6 @@ addpath('RenderOBJ/func_render/');
 addpath('RenderOBJ/func_other/');
 run renderBotanModesObjs.m
 
-
-%%%%% PC1-4 is what we want %%%%%%
 
 %% ----- Random Sampling ------
 % rand digit between [-w,w]
@@ -213,13 +192,11 @@ for i=1:rand_num
     rand_sample{i} = qCompTree_to_CompTree_rad_4layers(rand_sampleQ{i});
 end
 
-% save('rand_sampleQ', 'rand_sampleQ');
-
 run showRandSamples_compBotanTrees_4layers.m
 
 % --- Save Objs --------
 addpath('GetOBJ')
-obj_folder = saveRandSamplesObjs_compTrees_rad_4layers(rand_sample, 'BotanTreeSGP-Group-4');
+obj_folder = saveRandSamplesObjs_compTrees_rad_4layers(rand_sample, 'BotanTreeCollections-Group-4');
 
 % ===== Render Objs =====
 addpath('RenderOBJ')

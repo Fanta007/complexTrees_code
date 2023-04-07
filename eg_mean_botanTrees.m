@@ -10,7 +10,7 @@ addpath('utils_data');
 addpath('utils_data/utils_data_botanTrees');
 addpath('utils_statModels')
 
-data_path = 'botanTrees_txtskl_SGP18';              % botanTrees_txtskl_SGP18
+data_path = 'botanTrees/botanTrees_txtskl_collections';              % botanTrees_txtskl_collections
 [all_qCompTrees, all_compTrees] = load_botanTrees_rad(data_path);
 
 % Hard coded
@@ -35,10 +35,9 @@ used_idxes = meanTree_G5_idxes;
 used_qCompTrees = all_qCompTrees(used_idxes);
 used_compTrees = all_compTrees(used_idxes);
 tNum = length(used_qCompTrees);
-% 
-addpath('utils_draw')
-run showAll_compBotanTrees_ownMade4layers.m
-% return
+
+% addpath('utils_draw')
+% run showAll_compBotanTrees_ownMade4layers.m
 
 % % Load augmented trees
 % load('rand_sampleQ')
@@ -69,13 +68,11 @@ for i = 2: tNum
     Q1 = qMean;
     Q2 = used_qCompTrees{i};
     
-    % ---- Pad and Align trees, NO procrustes analysis ---
+    % ---- Pad and Align trees ---
     [G,Q1p, Q2p] = ReparamPerm_qCompTrees_rad_4layers_v2(Q1, Q2, lam_m, lam_s, lam_p);
     
     T1 = toc(tm1); fprintf('Loop %d: Pad and Align trees - done, timecost:%.4f secs\n', (i-1), T1);
-    
-    % --- Align two trees and compute correspondence ---
-    % [Q1p, G, ~, Q2p] = AlignFull_qComplexTree_4layers(Q1, Q2, lam_m,lam_s,lam_p, Nitr); 
+ 
 
     % --- Compute Geodesic ---
     tm2 = tic;
@@ -89,10 +86,10 @@ end
 
 T3 = toc(tm_all); fprintf('Mean Loops - done, timecost:%.4f secs\n', T3);
 
-% --- Visualization, A10{2} is final mean ----------
-addpath('utils_draw')
-run showInputAndMean_compBotanTrees_4layers.m
-return;
+% % --- Visualization, A10{2} is final mean ----------
+% addpath('utils_draw')
+% run showInputAndMean_compBotanTrees_4layers.m
+% % return;
 
 % --- Save Objs --------
 addpath('GetOBJ')
@@ -108,6 +105,5 @@ run renderBotanInputAndMeanObjs.m
 
 
 
-return;
 
 

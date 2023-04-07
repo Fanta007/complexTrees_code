@@ -5,6 +5,8 @@ function [folder_name] = saveGeoObjs_compTrees_rad_4layers(A10, data_path, idx1,
     c = distinguishable_colors(70);
     
     folder_name = ['geodOBJs_', data_path, '-', num2str(idx1), 'and', num2str(idx2)];
+    folder_name= ['outputedOBJs/', folder_name];
+
     mkdir(folder_name);
     
     for i =1: numel(CT)

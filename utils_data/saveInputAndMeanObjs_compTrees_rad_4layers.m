@@ -17,19 +17,10 @@ addpath Yanirk_code
 
 c = distinguishable_colors(70);
 
-folder_name = ['InputAndMeanOBJs_', data_path, '-', num2str(used_idxes)];
+folder_name = ['outputedOBJs/InputAndMeanOBJs_', data_path, '-', num2str(used_idxes)];
 mkdir(folder_name);
 
 for i =1: numel(CT)
-    
-%     y_added = ceil(i/19) * -0;
-%     x_added = (mod(i, 19)+1) * 300;
-%     
-%     clear first_pt_x first_pt_y first_pt_z
-%     
-%     first_pt_x = (CT{i}.beta0(1, 1));
-%     first_pt_y = (CT{i}.beta0(2, 1));
-%     first_pt_z = (CT{i}.beta0(3, 1));
     
     compTree2obj_rad_4layer(CT{i}, [folder_name,'/',num2str(i)]);
 end

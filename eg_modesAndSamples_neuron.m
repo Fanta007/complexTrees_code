@@ -4,19 +4,6 @@ close all
 
 %% ############ DATA ############
 
-% % Botanical Trees
-% addpath('utils_data/utils_data_botanTrees');
-% data_path = 'botanTrees_txtskl_SGP18';   % botanTrees_txtskl_SGP18
-% [all_qCompTrees, all_compTrees] = load_botanTrees_rad(data_path);
-% % 
-% % addpath('utils_draw')
-% % run showAll_compBotanTrees_ownMade4layers.m
-% % return
-% tNum = 5;
-% used_qCompTrees = all_qCompTrees(1:tNum);
-% used_compTrees = all_compTrees(1:tNum);
-
-% -------------------------------------------
 addpath('utils_data');
 data_path = 'utils_data/NeuroData/chen/CNG version/';
 [all_qCompTrees, all_compTrees] = load_neuroTrees_rad(data_path);
@@ -65,8 +52,6 @@ for i = 2: tNum
     
     used_qCompTrees_Align{i} = Q2p;
     T1 = toc(tm1); fprintf('Loop %d: Pad and Align trees - done, timecost:%.4f secs\n', (i-1), T1);
-    % --- Align two trees and compute correspondence ---
-    % [Q1p, G, ~, Q2p] = AlignFull_qComplexTree_4layers(Q1, Q2, lam_m,lam_s,lam_p, Nitr); 
 
     % --- Compute the geodesic ---
     tm2 = tic;
@@ -83,19 +68,6 @@ T3 = toc(tm_all); fprintf('Mean Loops - done, timecost:%.4f secs\n', T3);
 % --- Visualization, A10{2} is final mean ----------
 addpath('utils_draw')
 run showInputAndMean_compTrees_4layers.m
-
-
-% % --- Save Objs --------
-% addpath('GetOBJ')
-% Data = used_compTrees;
-% used_idxes = [-1];
-% obj_folder = saveInputAndMeanObjs_compTrees_rad_4layers(Data, 'chen', used_idxes);
-% 
-% % ===== Render Objs =====
-% addpath('RenderOBJ')
-% addpath('RenderOBJ/func_render/');
-% addpath('RenderOBJ/func_other/');
-% run renderNeuroInputAndMeanObjs.m
 
 save('allVars_Main_modes_withRad.mat')
 %% ----- Modes Compuatation -----
@@ -187,8 +159,6 @@ addpath('RenderOBJ/func_render/');
 addpath('RenderOBJ/func_other/');
 run renderNeuroModesObjs.m
 
-
-%%%%% PC1-4 is what we want %%%%%%
 
 %% ----- Random Sampling ------
 % rand digit between [-2,2]

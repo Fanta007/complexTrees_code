@@ -48,13 +48,10 @@ for i = 2: tNum
     Q1 = qMean;
     Q2 = used_qCompTrees{i};
     
-    % ---- Pad and Align trees, NO procrustes analysis ---
+    % ---- Pad and Align trees ---
     [G,Q1p, Q2p] = ReparamPerm_qCompTrees_rad_4layers_v2(Q1, Q2, lam_m, lam_s, lam_p);
     
     T1 = toc(tm1); fprintf('Loop %d: Pad and Align trees - done, timecost:%.4f secs\n', (i-1), T1);
-    
-    % --- Align two trees and compute correspondence ---
-    % [Q1p, G, ~, Q2p] = AlignFull_qComplexTree_4layers(Q1, Q2, lam_m,lam_s,lam_p, Nitr); 
 
     % --- Compute Geodesic ---
     tm2 = tic;
@@ -85,7 +82,5 @@ addpath('RenderOBJ/func_other/');
 run renderNeuroInputAndMeanObjs.m
 
 
-
-return;
 
 
