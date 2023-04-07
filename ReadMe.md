@@ -4,18 +4,12 @@ This is an example code for the paper "Learning Generative Models of the Geometr
 
 ### How to use the code
 
-- compile DynamicProgrammingQ.c using mex function in matlab
+- compile *DynamicProgrammingQ.c* using *mex* command in matlab
 - run *eg1_geodesic_botanTrees.m* to compute the geodesic between a pair of botancial trees
 - run *eg1_mean_botanTrees.m* to compute the mean shape for a group of botancial trees
 - run *eg1_modesAndSamples_botanTrees.m* to compute the principal variance mode and random samples for a group of botancial trees
 
-- The same operations apply to neuron sturctures, run files named as *eg2_xxxx.m*
-
-### Geodesic Computation
-
-### Mean Computation
-
-### Modes, Random Samples Compututation
+- The same operations apply to neuron sturctures. Run files named as *eg2_xxxx.m*
 
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
