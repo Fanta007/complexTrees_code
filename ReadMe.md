@@ -2,7 +2,7 @@
 This is an example code for the paper "Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects" by Guan Wang, Hamid Laga, and Anuj Srivastava.
 
 
-### Usage
+### How to use the code
 
 - compile DynamicProgrammingQ.c using mex function in matlab
 - run eg1_geodesic_botanTrees.m to compute the geodesic between a pair of botancial trees
