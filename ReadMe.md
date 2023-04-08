@@ -16,6 +16,9 @@ In this paper, we develop a novel mathematical framework for representing, compa
 
 The 3D model rendering part is adapted from this [MatlabRenderToolbox](https://github.com/llorz/MatlabRenderToolbox) by [Jing Ren](https://github.com/llorz?tab=repositories).
 
+### Comments
+A key component of this work is Square Root Velocity Functions (SRVF), which is used to carry out elastic analysis of curves. The description and relevant codes could be found at [this website](https://www.asc.ohio-state.edu/kurtek.1/cbms.html).
+
 ### License
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
