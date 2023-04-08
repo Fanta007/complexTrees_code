@@ -1,6 +1,8 @@
 ## Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects
 This is an example code for the paper "Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects" by Guan Wang, Hamid Laga, and Anuj Srivastava.
 
+In this paper, we develop a novel mathematical framework for representing, comparing, and computing geodesic deformations between the shapes of such tree-like 3D objects. Details could be found in our [project website](https://fanta007.github.io/elasticComplexTrees/).
+
 
 ### How to use the code
 
@@ -13,6 +15,8 @@ This is an example code for the paper "Learning Generative Models of the Geometr
 - The same operations apply to neuron sturctures. Run files named as ```eg2_xxxx.m```
 
 The 3D model rendering part is adapted from this [MatlabRenderToolbox](https://github.com/llorz/MatlabRenderToolbox) by [Jing Ren](https://github.com/llorz?tab=repositories).
+
+### License
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
