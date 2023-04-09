@@ -24,3 +24,16 @@ A key component of this work is Square Root Velocity Functions (SRVF), which is 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). For any commercial uses or derivatives, please contact us (wangguan12621@gmail.com, H.Laga@murdoch.edu.au, anuj@stat.fsu.edu).
+
+### Citation
+
+If you use the code, please make sure you cite:
+
+```
+@article{wang2021statistical,
+  title={Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects},
+  author={Wang, Guan and Laga, Hamid and Srivastava, Anuj},
+  journal={arXiv preprint arXiv:2110.08693},
+  year={2021}
+}
+```
