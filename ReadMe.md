@@ -34,6 +34,6 @@ If you use the code, please make sure you cite:
   title={Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects},
   author={Wang, Guan and Laga, Hamid and Srivastava, Anuj},
   journal={arXiv preprint arXiv:2110.08693},
-  year={2021}
+  year={2023}
 }
 ```
