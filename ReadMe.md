@@ -1,7 +1,7 @@
 ## Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects
 This is an example code for the paper "Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects" by Guan Wang, Hamid Laga, and Anuj Srivastava.
 
-In this paper, we develop a novel mathematical framework for representing, comparing, and computing geodesic deformations between the shapes of tree-like 3D objects, such as neuronal and botanical trees. Details could be found in our [project website](https://fanta007.github.io/elasticComplexTrees/).
+In this paper, we develop a novel mathematical framework for representing, comparing, and computing geodesic deformations between the shapes of tree-like 3D objects, such as neuronal and botanical trees. Details could be found in our [project website](https://fanta007.github.io/complexTrees_website/).
 
 
 ### How to use the code
