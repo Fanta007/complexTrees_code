@@ -30,7 +30,7 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 In
 If you use the code, please make sure you cite:
 
 ```
-@article{wang2021statistical,
+@article{wang2023statistical,
   title={Learning Generative Models of the Geometry and Topology of Tree-like 3D Objects},
   author={Wang, Guan and Laga, Hamid and Srivastava, Anuj},
   journal={arXiv preprint arXiv:2110.08693},
