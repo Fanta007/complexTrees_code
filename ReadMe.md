@@ -24,7 +24,7 @@ A key component of this work is Square Root Velocity Functions (SRVF), which is 
 
 ### Other related publications
 - [‪Statistical shape analysis of simplified neuronal trees‬](https://scholar.google.com.au/citations?view_op=view_citation&hl=en&user=Kj-lB0MAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=Kj-lB0MAAAAJ:6syOTa9L3GQC)
-*Duncan *
+*Duncan*
 
 ### License
 
