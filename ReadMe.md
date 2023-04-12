@@ -26,7 +26,7 @@ A key component of this work is Square Root Velocity Functions (SRVF), which is 
 - [‪Statistical shape analysis of simplified neuronal trees‬](https://scholar.google.com.au/citations?view_op=view_citation&hl=en&user=Kj-lB0MAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=Kj-lB0MAAAAJ:6syOTa9L3GQC)
 by *Adam Duncan, Eric Klassen, Anuj Srivastava*
 
--[Statistical analysis and modeling of the geometry and topology of plant roots](https://www.sciencedirect.com/science/article/pii/S0022519319304771) by *Guan Wang, Hamid Laga, Jinyuan Jia, Stanley J. Miklavcic, Anuj Srivastava*
+- [Statistical analysis and modeling of the geometry and topology of plant roots](https://www.sciencedirect.com/science/article/pii/S0022519319304771) by *Guan Wang, Hamid Laga, Jinyuan Jia, Stanley J. Miklavcic, Anuj Srivastava*
 
 ### License
 
