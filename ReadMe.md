@@ -16,11 +16,12 @@ In this paper, we develop a novel mathematical framework for representing, compa
 
 The 3D model rendering part is adapted from this [MatlabRenderToolbox](https://github.com/llorz/MatlabRenderToolbox) by [Jing Ren](https://github.com/llorz?tab=repositories).
 
-### Other related publications
-- [‪Statistical shape analysis of simplified neuronal trees‬](https://scholar.google.com.au/citations?view_op=view_citation&hl=en&user=Kj-lB0MAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=Kj-lB0MAAAAJ:6syOTa9L3GQC)
 
 ### Comments
 A key component of this work is Square Root Velocity Functions (SRVF), which is used to carry out elastic analysis of curves. The description and relevant codes could be found at [this website](https://www.asc.ohio-state.edu/kurtek.1/cbms.html).
+
+### Other related publications
+- [‪Statistical shape analysis of simplified neuronal trees‬](https://scholar.google.com.au/citations?view_op=view_citation&hl=en&user=Kj-lB0MAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=Kj-lB0MAAAAJ:6syOTa9L3GQC)
 
 ### License
 
