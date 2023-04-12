@@ -18,9 +18,9 @@ The 3D model rendering part is adapted from this [MatlabRenderToolbox](https://g
 
 
 ### Comments
-This work is an extension and generalization of [Duncan's work](https://scholar.google.com.au/citations?view_op=view_citation&hl=en&user=Kj-lB0MAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=Kj-lB0MAAAAJ:6syOTa9L3GQC), which focused on simple 2D tree-shaped objects.
+- This work is an extension and generalization of [Duncan's work](https://scholar.google.com.au/citations?view_op=view_citation&hl=en&user=Kj-lB0MAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=Kj-lB0MAAAAJ:6syOTa9L3GQC), which focused on simple 2D tree-shaped objects.
 
-A key component of this work is Square Root Velocity Functions (SRVF), which is used to carry out elastic analysis of curves. The description and relevant codes on SRVF could be found at [this website](https://www.asc.ohio-state.edu/kurtek.1/cbms.html).
+- A key component of this work is Square Root Velocity Functions (SRVF), which is used to carry out elastic analysis of curves. The description and relevant codes on SRVF could be found at [this website](https://www.asc.ohio-state.edu/kurtek.1/cbms.html).
 
 ### Other related publications
 - **[‪Statistical shape analysis of simplified neuronal trees‬](https://scholar.google.com.au/citations?view_op=view_citation&hl=en&user=Kj-lB0MAAAAJ&cstart=20&pagesize=80&sortby=pubdate&citation_for_view=Kj-lB0MAAAAJ:6syOTa9L3GQC)**
