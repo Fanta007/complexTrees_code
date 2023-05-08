@@ -8,7 +8,7 @@ close all
 % Botanical Trees
 addpath('utils_data');
 addpath('utils_data/utils_data_botanTrees');
-addpath('utils_statModels')
+addpath('utils_statModels', 'utils_funcs')
 
 data_path = 'botanTrees/botanTrees_txtskl_collections';              % botanTrees_txtskl_collections
 [all_qCompTrees, all_compTrees] = load_botanTrees_rad(data_path);
@@ -47,7 +47,6 @@ tNum = length(used_qCompTrees);
 %% ######### Statistical Models #########
 
 % %%%%%% Mean Computation %%%%%%
-addpath('utils_statModels')
 
 % parameters
 lam_m = 0.1; 

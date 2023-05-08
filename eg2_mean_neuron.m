@@ -27,7 +27,7 @@ used_compTrees = all_compTrees(used_idxes);
 %% ######### Statistical Models #########
 
 % %%%%%% Mean Computation %%%%%%
-addpath('utils_statModels')
+addpath('utils_statModels','utils_funcs')
 
 % parameters
 lam_m = 1; 

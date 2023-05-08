@@ -38,7 +38,7 @@ obj_folder_inputTree = saveRandSamplesObjs_compTrees_rad_4layers(used_compTrees,
 %% ######### Statistical Models #########
 
 % ##### Mean Computation #####
-addpath('utils_statModels')
+addpath('utils_statModels','utils_funcs')
 
 % parameters
 lam_m = 0.2; 
