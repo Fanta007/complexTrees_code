@@ -17,7 +17,7 @@ run showAll_compBotanTrees_4layers.m
 
 % ##### Geodesic Computation #####
 addpath('utils_statModels', 'utils_funcs')
-idx1 =15; idx2 = 12;
+idx1 =1; idx2 = 8;
 
 Q1 = all_qCompTrees{idx1};
 Q2 = all_qCompTrees{idx2};

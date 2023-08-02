@@ -7,7 +7,7 @@ t = linspace(0,1,T0_pointNum);
 
 % q0
 if Q1.T0_pointNum<T0_pointNum
-    q0_1 = interp1(Q1.t_paras,Q1.q0', t)'; 
+    q0_1 = interp1(Q1.t_paras,Q1.q0', t, 'linear','extrap')'; 
     beta0_rad_1 = interp1(Q1.t_paras, Q1.beta0_rad, t);
     
     q0_2 = Q2.q0;
